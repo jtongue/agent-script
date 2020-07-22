@@ -1,5 +1,14 @@
 #!/bin/bash
+if
+	[${UID} -ne 0 ]
 
+	echo "you need root acces"
+
+then
+
+fi
 
 lsblk
 nproc
+
+
